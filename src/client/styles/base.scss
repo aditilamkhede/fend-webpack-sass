@@ -1,0 +1,23 @@
+$section-width: 800px;
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: $section-width;
+    margin: 50px auto;
+}
+
+// /* This CSS will print because %message-shared is extended. */
+// %message-shared {
+//   border: 1px solid #ccc;
+//   padding: 10px;
+//   color: #333;
+// }
